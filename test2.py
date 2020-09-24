@@ -8,7 +8,7 @@ curId = - 1
 StartPoint = (0, 0)
 
 def Start(event):
-    global curId,StartPoint
+    global curId, StartPoint
     x = event.x
     y = event.y
     StartPoint = (x,y)
